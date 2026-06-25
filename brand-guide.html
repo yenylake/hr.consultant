@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HR Consultant Hub — Brand Guide</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --color-navy:        #0f172a;
+      --color-navy-deep:   #1e1b4b;
+      --color-royal:       #2563eb;
+      --color-electric:    #3b82f6;
+      --color-indigo-soft: #4f46e5;
+      --color-iris:        #6366f1;
+      --color-mist:        #f8fafc;
+      --color-cyan-soft:   #22d3ee;
+      --color-teal-soft:   #2dd4bf;
+    }
+    * { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; }
+    html { scroll-behavior: smooth; }
+    body { background: #f8fafc; }
+    .swatch { aspect-ratio: 4 / 3; }
+    .copyhex { cursor: pointer; }
+    .copyhex:active { transform: scale(.97); }
+  </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+  <!-- Cover -->
+  <header class="bg-gradient-to-br from-indigo-soft via-iris to-navy-deep text-white">
+    <div class="max-w-5xl mx-auto px-6 py-20">
+      <div class="flex items-center gap-3 mb-10">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-electric to-indigo-soft flex items-center justify-center shadow-lg shadow-indigo-500/30">
+          <i data-lucide="brain-circuit" class="w-7 h-7 text-white"></i>
+        </div>
+        <div class="leading-tight">
+          <p class="font-extrabold text-xl tracking-tight">HR Consultant Hub</p>
+          <p class="text-[11px] text-indigo-100/80 font-medium">Nền tảng toàn diện cho Chuyên gia Tư vấn Nhân sự</p>
+        </div>
+      </div>
+      <p class="text-sm font-semibold tracking-widest text-cyan-200 uppercase mb-3">Brand Guidelines</p>
+      <h1 class="text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight">Hệ thống nhận diện<br/>thương hiệu</h1>
+      <p class="mt-5 text-indigo-100/90 max-w-lg leading-relaxed">Bộ quy chuẩn màu sắc, typography và thành phần giao diện dành cho đội ngũ thiết kế &amp; phát triển. Phiên bản 1.0 — 2026.</p>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-16 space-y-20">
+
+    <!-- 1. Logo -->
+    <section>
+      <p class="text-xs font-bold tracking-widest text-royal uppercase mb-2">01 — Logo</p>
+      <h2 class="text-2xl font-extrabold text-navy tracking-tight mb-6">Logo &amp; Wordmark</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl p-10 border border-slate-100 shadow-sm flex flex-col items-center justify-center gap-4">
+          <div class="flex items-center gap-2.5">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-electric to-indigo-soft flex items-center justify-center shadow-lg shadow-indigo-500/30">
+              <i data-lucide="brain-circuit" class="w-6 h-6 text-white"></i>
+            </div>
+            <div class="leading-tight">
+              <p class="font-extrabold text-lg tracking-tight bg-gradient-to-r from-royal via-iris to-indigo-soft bg-clip-text text-transparent">HR Consultant Hub</p>
+              <p class="text-[10px] text-slate-400 font-medium -mt-0.5">Nền tảng toàn diện cho Chuyên gia Tư vấn Nhân sự</p>
+            </div>
+          </div>
+          <span class="text-xs text-slate-400 mt-2">Nền sáng (primary)</span>
+        </div>
+        <div class="bg-navy rounded-2xl p-10 shadow-sm flex flex-col items-center justify-center gap-4">
+          <div class="flex items-center gap-2.5">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-electric to-indigo-soft flex items-center justify-center shadow-lg shadow-indigo-500/30">
+              <i data-lucide="brain-circuit" class="w-6 h-6 text-white"></i>
+            </div>
+            <div class="leading-tight">
+              <p class="font-extrabold text-lg tracking-tight text-white">HR Consultant Hub</p>
+              <p class="text-[10px] text-slate-400 font-medium -mt-0.5">Nền tảng toàn diện cho Chuyên gia Tư vấn Nhân sự</p>
+            </div>
+          </div>
+          <span class="text-xs text-slate-500 mt-2">Nền tối (trên màu đậm)</span>
+        </div>
+      </div>
+      <div class="mt-6 grid sm:grid-cols-3 gap-4 text-sm">
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy mb-1">Biểu tượng</p><p class="text-slate-500">Icon <code class="text-royal">brain-circuit</code> (Lucide), nền gradient bo góc <code>rounded-xl</code>.</p></div>
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy mb-1">Khoảng trống an toàn</p><p class="text-slate-500">Chừa lề tối thiểu bằng ½ chiều cao biểu tượng quanh logo.</p></div>
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy mb-1">Wordmark</p><p class="text-slate-500">Chữ gradient <code>royal → iris → indigo</code>, font-weight 800.</p></div>
+      </div>
+    </section>
+
+    <!-- 2. Primary colors -->
+    <section>
+      <p class="text-xs font-bold tracking-widest text-royal uppercase mb-2">02 — Màu sắc</p>
+      <h2 class="text-2xl font-extrabold text-navy tracking-tight mb-2">Bảng màu thương hiệu</h2>
+      <p class="text-slate-500 mb-6 text-sm">Nhấp vào ô màu để copy mã HEX.</p>
+
+      <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Màu chủ đạo</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 mb-10">
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#0f172a">
+          <div class="swatch" style="background:#0f172a"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Navy</p><p class="text-xs text-slate-400">#0F172A</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#1e1b4b">
+          <div class="swatch" style="background:#1e1b4b"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Navy Deep</p><p class="text-xs text-slate-400">#1E1B4B</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#4f46e5">
+          <div class="swatch" style="background:#4f46e5"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Indigo</p><p class="text-xs text-slate-400">#4F46E5</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#6366f1">
+          <div class="swatch" style="background:#6366f1"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Iris</p><p class="text-xs text-slate-400">#6366F1</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#2563eb">
+          <div class="swatch" style="background:#2563eb"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Royal</p><p class="text-xs text-slate-400">#2563EB</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#3b82f6">
+          <div class="swatch" style="background:#3b82f6"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Electric</p><p class="text-xs text-slate-400">#3B82F6</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#f8fafc">
+          <div class="swatch border-b border-slate-100" style="background:#f8fafc"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Mist</p><p class="text-xs text-slate-400">#F8FAFC</p></div>
+        </div>
+      </div>
+
+      <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Màu nhấn (Highlighter)</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 mb-10">
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#67e8f9">
+          <div class="swatch" style="background:#67e8f9"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Cyan Light</p><p class="text-xs text-slate-400">#67E8F9</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#22d3ee">
+          <div class="swatch" style="background:#22d3ee"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Cyan</p><p class="text-xs text-slate-400">#22D3EE</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#2dd4bf">
+          <div class="swatch" style="background:#2dd4bf"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Teal</p><p class="text-xs text-slate-400">#2DD4BF</p></div>
+        </div>
+      </div>
+
+      <h3 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Màu trung tính (Neutral / Text &amp; UI)</h3>
+      <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3">
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#1e293b">
+          <div class="swatch" style="background:#1e293b"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Slate 800</p><p class="text-xs text-slate-400">Body text</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#475569">
+          <div class="swatch" style="background:#475569"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Slate 600</p><p class="text-xs text-slate-400">Nav / phụ</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#94a3b8">
+          <div class="swatch" style="background:#94a3b8"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Slate 400</p><p class="text-xs text-slate-400">Mờ / caption</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#cbd5e1">
+          <div class="swatch" style="background:#cbd5e1"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Slate 300</p><p class="text-xs text-slate-400">Đường kẻ</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#f1f5f9">
+          <div class="swatch border-b border-slate-100" style="background:#f1f5f9"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">Slate 100</p><p class="text-xs text-slate-400">Viền / nền nhẹ</p></div>
+        </div>
+        <div class="copyhex rounded-xl overflow-hidden border border-slate-100 shadow-sm bg-white" data-hex="#ffffff">
+          <div class="swatch border-b border-slate-100" style="background:#ffffff"></div>
+          <div class="p-3"><p class="font-bold text-navy text-sm">White</p><p class="text-xs text-slate-400">#FFFFFF</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Gradients -->
+    <section>
+      <p class="text-xs font-bold tracking-widest text-royal uppercase mb-2">03 — Gradient</p>
+      <h2 class="text-2xl font-extrabold text-navy tracking-tight mb-6">Dải màu chuyển sắc</h2>
+      <div class="grid md:grid-cols-3 gap-5">
+        <div class="rounded-2xl overflow-hidden border border-slate-100 shadow-sm bg-white">
+          <div class="h-28" style="background:linear-gradient(135deg,#4f46e5,#6366f1,#1e1b4b)"></div>
+          <div class="p-4"><p class="font-bold text-navy text-sm mb-1">Hero / Nền chính</p><p class="text-xs text-slate-500 font-mono">linear-gradient(135°, #4F46E5, #6366F1, #1E1B4B)</p></div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-slate-100 shadow-sm bg-white">
+          <div class="h-28" style="background:linear-gradient(135deg,#3b82f6,#4f46e5)"></div>
+          <div class="p-4"><p class="font-bold text-navy text-sm mb-1">Logo / Biểu tượng</p><p class="text-xs text-slate-500 font-mono">linear-gradient(135°, #3B82F6, #4F46E5)</p></div>
+        </div>
+        <div class="rounded-2xl overflow-hidden border border-slate-100 shadow-sm bg-white">
+          <div class="h-28 flex items-center justify-center" style="background:linear-gradient(90deg,#2563eb,#6366f1,#4f46e5)">
+            <span class="font-extrabold text-2xl text-white">Aa Wordmark</span>
+          </div>
+          <div class="p-4"><p class="font-bold text-navy text-sm mb-1">Chữ Wordmark</p><p class="text-xs text-slate-500 font-mono">linear-gradient(90°, #2563EB, #6366F1, #4F46E5)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Typography -->
+    <section>
+      <p class="text-xs font-bold tracking-widest text-royal uppercase mb-2">04 — Typography</p>
+      <h2 class="text-2xl font-extrabold text-navy tracking-tight mb-6">Phông chữ</h2>
+      <div class="bg-white rounded-2xl border border-slate-100 shadow-sm p-8">
+        <div class="flex items-baseline justify-between flex-wrap gap-2 border-b border-slate-100 pb-5 mb-6">
+          <p class="text-4xl font-extrabold text-navy">Plus Jakarta Sans</p>
+          <p class="text-sm text-slate-400">Google Fonts · hỗ trợ tiếng Việt</p>
+        </div>
+        <div class="space-y-4">
+          <div class="flex items-baseline gap-6"><span class="text-xs text-slate-400 w-28 shrink-0">Black / 800</span><span class="text-3xl font-extrabold text-navy">Nâng tầm định vị Chuyên gia Nhân sự</span></div>
+          <div class="flex items-baseline gap-6"><span class="text-xs text-slate-400 w-28 shrink-0">Bold / 700</span><span class="text-2xl font-bold text-navy">Tiêu đề mục &amp; nhấn mạnh</span></div>
+          <div class="flex items-baseline gap-6"><span class="text-xs text-slate-400 w-28 shrink-0">SemiBold / 600</span><span class="text-xl font-semibold text-slate-700">Nút bấm &amp; nhãn quan trọng</span></div>
+          <div class="flex items-baseline gap-6"><span class="text-xs text-slate-400 w-28 shrink-0">Medium / 500</span><span class="text-lg font-medium text-slate-600">Menu điều hướng &amp; chú thích</span></div>
+          <div class="flex items-baseline gap-6"><span class="text-xs text-slate-400 w-28 shrink-0">Regular / 400</span><span class="text-base text-slate-600">Văn bản nội dung — Cộng đồng kết nối, phát triển và nâng tầm năng lực Tư vấn Nhân sự trong kỷ nguyên AI.</span></div>
+        </div>
+        <div class="mt-6 pt-5 border-t border-slate-100 text-sm text-slate-500">
+          <code class="text-royal">font-family: 'Plus Jakarta Sans', system-ui, sans-serif;</code>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Components -->
+    <section>
+      <p class="text-xs font-bold tracking-widest text-royal uppercase mb-2">05 — Thành phần</p>
+      <h2 class="text-2xl font-extrabold text-navy tracking-tight mb-6">Nút &amp; thẻ</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+        <div class="bg-white rounded-2xl border border-slate-100 shadow-sm p-8 space-y-4">
+          <p class="font-bold text-navy text-sm mb-3">Buttons</p>
+          <button class="inline-flex items-center gap-2 bg-royal text-white text-sm font-semibold px-5 py-2.5 rounded-xl shadow-lg shadow-blue-500/30">Primary — Dành cho Doanh nghiệp</button><br/>
+          <button class="inline-flex items-center gap-2 bg-white text-navy text-sm font-semibold px-5 py-2.5 rounded-xl border border-slate-200 shadow-sm">Secondary</button><br/>
+          <button class="inline-flex items-center gap-2 bg-blue-50 text-royal text-sm font-semibold px-5 py-2.5 rounded-xl">Soft — Đăng ký</button>
+          <p class="text-xs text-slate-400 pt-2">Bo góc <code>rounded-xl</code> (12px) · đổ bóng màu xanh 30%.</p>
+        </div>
+        <div class="bg-white rounded-2xl border border-slate-100 shadow-sm p-8">
+          <p class="font-bold text-navy text-sm mb-3">Card</p>
+          <div class="rounded-2xl p-6 border border-slate-100 shadow-sm hover:shadow-xl transition bg-white">
+            <div class="w-12 h-12 rounded-2xl bg-blue-50 flex items-center justify-center mb-4">
+              <i data-lucide="sparkles" class="w-6 h-6 text-royal"></i>
+            </div>
+            <p class="font-bold text-navy">Tiêu đề thẻ</p>
+            <p class="text-sm text-slate-500 mt-1">Nền trắng · viền <code>slate-100</code> · <code>rounded-2xl</code> · <code>shadow-sm</code> → hover <code>shadow-xl</code>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 grid sm:grid-cols-4 gap-4 text-sm">
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy">Bo góc</p><p class="text-slate-500 text-xs mt-1">Nút/chip: 12px · Thẻ: 16px · Badge: tròn (full)</p></div>
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy">Đổ bóng</p><p class="text-slate-500 text-xs mt-1">shadow-sm mặc định · shadow-xl khi hover</p></div>
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy">Viền</p><p class="text-slate-500 text-xs mt-1">1px slate-100 trên nền trắng</p></div>
+        <div class="bg-white rounded-xl p-4 border border-slate-100"><p class="font-semibold text-navy">Hiệu ứng</p><p class="text-slate-500 text-xs mt-1">hover nâng -translate-y-1 · active scale-95</p></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-navy text-slate-400 text-sm">
+    <div class="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between flex-wrap gap-3">
+      <p>© 2026 HR Consultant Hub — Brand Guide v1.0</p>
+      <p class="text-slate-500">Nền tảng toàn diện cho Chuyên gia Tư vấn Nhân sự</p>
+    </div>
+  </footer>
+
+  <div id="toast" class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-navy text-white text-sm font-semibold px-4 py-2 rounded-xl shadow-xl opacity-0 transition pointer-events-none">Đã copy!</div>
+
+  <script>
+    lucide.createIcons();
+    document.querySelectorAll('.copyhex').forEach(function (el) {
+      el.addEventListener('click', function () {
+        var hex = el.getAttribute('data-hex');
+        navigator.clipboard.writeText(hex);
+        var t = document.getElementById('toast');
+        t.textContent = 'Đã copy ' + hex.toUpperCase();
+        t.style.opacity = '1';
+        setTimeout(function () { t.style.opacity = '0'; }, 1200);
+      });
+    });
+  </script>
+</body>
+</html>
